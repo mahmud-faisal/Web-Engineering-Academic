@@ -1,0 +1,15 @@
+table{
+    border:1px solid blueviolet;
+    border-collapse: collapse;
+}
+tr,td,th{
+    border:1px solid blueviolet;
+    padding: 10px;
+}
+tr:nth-child(odd){
+    background-color:lightblue;
+}
+
+img{
+    border:4px lightskyblue solid;
+}
