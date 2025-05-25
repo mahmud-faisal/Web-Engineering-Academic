@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Biodata Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <h1>Biodata Form</h1>
+            <img src="../images/pngtree-man-avatar-wearing-gray-suit-png-image_6102786.png" alt="" width="200" height="200">
+            <form>
+                <label for="fullname">Full Name:</label><br>
+                <input type="text" id="fullname" name="fullname" required><br><br>
+    
+                <label for="dob">Date of Birth:</label><br>
+                <input type="date" id="dob" name="dob" required><br><br>
+    
+                <label>Gender:</label><br>
+                <input type="radio" id="male" name="gender" value="Male" required>
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="Female">
+                <label for="female">Female</label><br>
+                <input type="radio" id="other" name="gender" value="Other">
+                <label for="other">Other</label><br><br>
+
+
+                <label for="education">Educational Qualification</label>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>Degree</th>
+                            <th>Institution</th>
+                            <th>Year of Graduation</th>
+                            <th>Grade/Percentage</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Bachelor of Science (B.Sc.)</td>
+                            <td>XYZ University</td>
+                            <td>2022</td>
+                            <td>80%</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <label>Hobbies:</label><br>
+                <input type="checkbox" id="reading" name="hobbies" value="Reading">
+                <label for="reading">Reading</label><br>
+                <input type="checkbox" id="traveling" name="hobbies" value="Traveling">
+                <label for="traveling">Traveling</label><br>
+                <input type="checkbox" id="sports" name="hobbies" value="Sports">
+                <label for="sports">Sports</label><br>
+                <input type="checkbox" id="music" name="hobbies" value="Music">
+                <label for="music">Music</label><br><br>
+    
+                <label for="address">Address:</label><br>
+                <textarea id="address" name="address" rows="4" cols="30"></textarea
+
+
+           <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</div>
